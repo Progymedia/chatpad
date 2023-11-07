@@ -68,7 +68,7 @@ export function IndexRoute() {
                 </Button>
               </SettingsModal>
             )}
-            {config.showDownloadLink && !window.todesktop && (
+            {/* {config.showDownloadLink && !window.todesktop && (
               <Button
                 component="a"
                 href="https://dl.todesktop.com/230313oyppkw40a"
@@ -79,7 +79,7 @@ export function IndexRoute() {
               >
                 Download Desktop App
               </Button>
-            )}
+            )} */}
           </Group>
         </Container>
       </Center>
